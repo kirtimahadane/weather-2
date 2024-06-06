@@ -8,7 +8,7 @@ export default function App() {
   const [isLoading, setIsLoading] = useState(false);
   const [weatherData, setWeatherData] = useState(null);
   const [city, setCity] = useState("");
-  console.log(import.meta.env.VITE_API_KEY);
+  
   const handleSearch = async (city) => {
       
     if(!city){
